@@ -1,0 +1,13 @@
+.todo__completed {
+  text-decoration: line-through;
+}
+
+.todo-item__read-mode {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.todo-item__read-mode > .todo-item__edit {
+  margin-left: auto;
+}
