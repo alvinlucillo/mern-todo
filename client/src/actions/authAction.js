@@ -25,7 +25,6 @@ export const checkTokenValidity = () => async (dispatch) => {
   const user = JSON.parse(localStorage.getItem("user"));
 
   if (user) {
-    console.log("user", user);
     try {
       await service.post(
         "/auth/check",

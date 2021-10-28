@@ -19,7 +19,7 @@ const initialState = {
   isLoginFailed: false,
   errMessage: "",
   alreadyAuthenticated: false,
-  isCheckingAuth: true,
+  isCheckingAuth: false,
 };
 const authReducer = (state = initialState, action) => {
   switch (action.type) {
