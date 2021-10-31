@@ -47,7 +47,7 @@ export const checkTokenValidity = () => async (dispatch) => {
 
 export const loginUser = (creds) => async (dispatch) => {
   let data;
-  console.log("process.env.REACT_APP_API", process.env.REACT_APP_API);
+
   try {
     const resp = await service.post("/auth/login", { ...creds });
     data = await resp.data;
