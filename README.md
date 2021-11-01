@@ -1,5 +1,5 @@
 # For more information, visit this Medium article: 
-https://alvinlucillo.medium.com/todo-a-simple-mern-app-7fc1ba6e670a
+https://medium.com/nullifying-the-null/todo-a-simple-mern-app-7fc1ba6e670a
 
 # Getting Started with Create React App
 
